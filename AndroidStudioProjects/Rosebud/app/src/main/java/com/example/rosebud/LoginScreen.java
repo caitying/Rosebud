@@ -5,7 +5,6 @@ import android.os.Bundle;
 
 public class LoginScreen extends AppCompatActivity {
 
-    private
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
