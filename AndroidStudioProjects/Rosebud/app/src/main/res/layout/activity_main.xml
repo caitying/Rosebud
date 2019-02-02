@@ -26,7 +26,7 @@
         android:id="@+id/editTextPassword"
         android:layout_width="339dp"
         android:layout_height="47dp"
-        android:hint="Password Goes Here"
+        android:hint="Password Here"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="376dp" />
