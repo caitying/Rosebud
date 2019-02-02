@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "76641611575-vb9vd2sg1v2vai8f2ab80dgcdn4tgkn7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rosebud",
+            "certificate_hash": "e68c7ef5903fccb4fb0e9a200b2b140512ece4be"
+          }
+        },
+        {
           "client_id": "76641611575-muptgoej9vodjtd5hsvbk0cdo7eeutfh.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76641611575-muptgoej9vodjtd5hsvbk0cdo7eeutfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
