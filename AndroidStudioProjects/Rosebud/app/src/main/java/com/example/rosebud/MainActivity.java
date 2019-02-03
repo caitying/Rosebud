@@ -60,7 +60,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         if(task.isSuccessful()){
                             //user is successfully registered and logged in
                             Toast.makeText(MainActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
+//<<<<<<< HEAD
                             Intent i = new Intent(getApplicationContext(),);
+//=======
+                            Intent i = new Intent(getApplicationContext(), UserInformation.class);
+                            startActivity(i);
+//>>>>>>> 04cfd70e8dd82e6fe23f1b80a403cec66ed6a64a
                         } else {
                             Toast.makeText(MainActivity.this, "Could not register. Please try again.", Toast.LENGTH_SHORT).show();
                         }
